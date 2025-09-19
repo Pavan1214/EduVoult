@@ -1,0 +1,78 @@
+// This file simulates data we'll eventually get from our backend.
+const uploader1 = { displayName: 'Alex Johnson', profilePictureUrl: 'https://i.pravatar.cc/150?u=alexjohnson' };
+const uploader2 = { displayName: 'Maria Garcia', profilePictureUrl: 'https://i.pravatar.cc/150?u=mariagarcia' };
+
+export const mockUploads = [
+  {
+    _id: 'image_1',
+    imageUrl: `https://picsum.photos/seed/calculus/400/600`,
+    uploader: uploader1,
+    subject: 'Calculus',
+    semester: '3',
+    group: 'MPC',
+    year: '2nd',
+  },
+  {
+    _id: 'image_2',
+    imageUrl: `https://picsum.photos/seed/botany/400/550`,
+    uploader: uploader2,
+    subject: 'Botany',
+    semester: '1',
+    group: 'BiPC',
+    year: '1st',
+  },
+  {
+    _id: 'image_3',
+    imageUrl: `https://picsum.photos/seed/java/400/700`,
+    uploader: uploader1,
+    subject: 'Java Programming',
+    semester: '4',
+    group: 'CSE',
+    year: '2nd',
+  },
+  {
+    _id: 'image_4',
+    imageUrl: `https://picsum.photos/seed/physics/400/500`,
+    uploader: uploader2,
+    subject: 'Physics',
+    semester: '1',
+    group: 'MPC',
+    year: '1st',
+  },
+  {
+    _id: 'image_5',
+    imageUrl: `https://picsum.photos/seed/zoology/400/650`,
+    uploader: uploader1,
+    subject: 'Zoology',
+    semester: '2',
+    group: 'BiPC',
+    year: '1st',
+  },
+  {
+    _id: 'image_6',
+    imageUrl: `https://picsum.photos/seed/datastructures/400/450`,
+    uploader: uploader2,
+    subject: 'Data Structures',
+    semester: '3',
+    group: 'CSE',
+    year: '2nd',
+  },
+  {
+    _id: 'image_7',
+    imageUrl: `https://picsum.photos/seed/chemistry/400/620`,
+    uploader: uploader1,
+    subject: 'Chemistry',
+    semester: '2',
+    group: 'MPC',
+    year: '1st',
+  },
+  {
+    _id: 'image_8',
+    imageUrl: `https://picsum.photos/seed/dbms/400/580`,
+    uploader: uploader2,
+    subject: 'DBMS',
+    semester: '4',
+    group: 'CSE',
+    year: '2nd',
+  },
+];
